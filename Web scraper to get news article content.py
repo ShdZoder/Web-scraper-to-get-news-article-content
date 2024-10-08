@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import sys
 
 def scrape_article(url):
-    # Send a GET request to the URL
+    # Send a GET request to the URL 
     response = requests.get(url)
     
     # Check if the request was successful
